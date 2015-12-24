@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SuiteName" parallel="classes">
+    <test name="TestName" allow-return-values="true">
+        <classes>
+            <class name="Demo.Test001P" />
+            <class name="Demo.Test002P" />
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="Listener.ScreenshotListener" />
+    </listeners>
+</suite>
